@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" autocomplete="on">
+        <fieldset>
+            <legend>Registration form</legend>
+        
+        <table>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="name" autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name:</label></td>
+                <td><input type="lname" placeholder="enter your lat name"></td>
+            </tr>
+            <tr>
+                <td><label for="pno">Phone no:</label></td>
+                <td><input type="tel" placeholder="ex:9982992327" required minlength="10" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td>Company Email:</td>
+                <td><input type="email" value="sainaeen@gmail.com" disabled></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" value="sainaeen@gmail.com" readonly></td>
+            </tr>
+            <tr>
+                <td><label for="gen">Gender:</label></td>
+                <td>
+                    <input type="radio" checked>Male
+                    <input type="radio">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password"  pattern="[A-Z]{4}[a-z]{4}[0-9]{3}" required ></td>
+            </tr>
+        </table>
+        <button>submit</button>
+    </fieldset>
+    </form>
+</body>
+</html>

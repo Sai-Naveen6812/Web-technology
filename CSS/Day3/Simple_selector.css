@@ -1,0 +1,53 @@
+#demo{
+    color: yellow;
+    background-color: grey;
+}
+
+#demo1{
+    color: red;
+    background-color: orange;
+}
+
+.demo2{
+    color: green;
+    background-color: black;
+}
+
+.demo3{
+    text-align: center;
+}
+
+.demo4{
+    border: 2px solid red;
+}
+
+h2{
+    color: blue;
+    background-color: burlywood;
+}
+
+h1{
+    color: blue;
+    text-align: right;
+}   
+
+h3{
+    color: aqua;
+    background-color: antiquewhite;
+}
+
+/* grouping selectors */
+
+#demo,.demo2,h2{
+    text-decoration: underline;
+}
+
+/* universal selector */
+
+/* body{
+    background-color: chocolate;
+} */
+
+*{
+    background-color: lime;
+}

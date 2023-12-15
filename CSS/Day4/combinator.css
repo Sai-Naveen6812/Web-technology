@@ -1,0 +1,26 @@
+/* descendent-selector(space) */
+
+/* div h1{
+    background-color: cadetblue;
+} */
+
+/* child selector(>) */
+
+/* div > span > h1{
+    background-color: burlywood;
+} */
+
+/* adjacent sibling */
+
+/* div + h1 + h1{
+    background-color: blue;
+} */
+
+/* div +h1{
+    background-color: brown;
+} */
+
+/* general sibling */
+div ~h1{
+    background-color: cadetblue;
+}

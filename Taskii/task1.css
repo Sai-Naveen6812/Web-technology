@@ -1,0 +1,36 @@
+.demo{
+    margin-top: -20px;
+}
+
+#demo1{
+    font-weight: bolder;
+}
+
+.demo2{
+    color: white;
+    background-color: darkblue;
+    font-style: italic;
+}
+
+.demo3{
+    border: 1px solid;
+    width: 1055px;
+    height: 50px;
+}
+
+.demo4{
+    text-align: center;
+}
+
+.demo5{
+    color: blue;
+}
+
+.demo7{
+    background-color: grey;
+}
+
+*{
+    margin-left: 20px;
+    margin-right: 20px;
+}

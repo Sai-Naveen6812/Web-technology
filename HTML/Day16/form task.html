@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create Your Account</h1>
+    <h3 style="color: red;">*Required information</h3>
+    <div><h2 style="background-color: burlywood;">Basic information</h2></div>
+    <form action="">
+        <table align="center" cellpadding="3">
+            <tr>
+                <td align="right"><label for="email">Email:<sup style="color: red;">*</sup></label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="psd">Password:<sup style="color: red;">*</sup></label></td>
+                <td><input type="password" id="psd"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="repsd">Retype password:<sup style="color: red;">*</sup></label></td>
+                <td><input type="password" id="repsd"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="fname">First Name:<sup style="color: red;">*</sup></label></td>
+                <td><input type="text" id="fname"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="lname">Last Name:<sup style="color: red;">*</sup></label></td>
+                <td><input type="text" id="lname"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="phno">Phone.no:<sup style="color: red;">*</sup></label></td>
+                <td><input type="tel" placeholder="999-999-9999" id="phno"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="ads">Address:<sup style="color: red;">*</sup></label></td>
+                <td><textarea name="ads" id="ads" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="city">City:<sup style="color: red;">*</sup></label></td>
+                <td><input type="text" id="city"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="provice">Provice:<sup style="color: red;">*</sup></label></td>
+                <td><input list="provice">
+                <datalist id="provice">
+                    <option value="Alberta">Alberta</option>
+                    <option value="UK">UK</option>
+                    <option value="US">US</option>
+                </datalist>
+            </tr>
+            <tr>
+                <td align="right"><label for="cou">Country:<sub style="color: red;">*</sub></label></td>
+                <td><input type="text" id="cou"></td>
+            </tr>
+        </table>
+        <br>
+        <div><h3 style="background-color: grey;">Education</h3></div>
+        <table align="center">
+            <tr>
+                <td align="right"><label for="scl">School:<sup style="color: red;">*</sup></label></td>
+                <td><input type="text" id="scl"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="pro">Program:<sup style="color: red;">*</sup></label></td>
+                <td><input type="text" id="pro"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="Education level">Education level:<sup style="color: red;">*</sup></label></td>
+                <td><input list="Education level">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><fieldset style="border-radius: 1px;"><legend>Eductation Status</legend>
+                    <input type="radio">Graduated <br><input type="radio">Current Enroled <br><input type="radio">Did Not Graduated</td></fieldset>
+                
+            </tr>
+            <tr>
+                <td><label for="grad">Graduation Data:<sup style="color: red;">*</sup></label></td>
+                <td><input type="date"></td>
+            </tr>
+    </table><br>
+    <div><h3 style="background-color: grey;">Work Experience</h3></div>
+    <table align="center">
+        <tr>
+            <td align="right"><label for="emp">Employer:</label></td>
+            <td><input type="text" id="emp"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="jl">Job Title:</label></td>
+            <td><input type="text" id="jl"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="jd">Job Duty:</label></td>
+            <td><textarea name="jd" id="jd" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="wy">Worked Year:</label></td>
+            <td><input type="number" class="1996"></td>
+        </tr>
+    </table>
+    <br>
+    <div><h3 style="background-color: grey;">Attactments</h3></div>
+    <table align="center"><br>
+        <tr>
+            <td align="right"><label for="attach">Attachments:</label></td>
+            <td><div style="border: 1px solid;"><input type="file"></div></td>
+        </tr>
+        
+    </table>
+    <br><br><br>
+    <table align="center">
+        <tr>
+            <td><button align="right" style="background-color: red; color: white;">Submit</button></td>
+            <td> <button align="center" style="background-color: red; color: white;">Reset</button></td>
+        </tr>
+    </table>
+   
+
+    </form>
+</body>
+</html>
